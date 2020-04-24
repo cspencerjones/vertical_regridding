@@ -18,11 +18,12 @@ dependencies:
     - notebook      # Notebook interface
     - numpy         # N-d array and numerics
     - pandas        # Labeled array library
-    - pyresample    # Geographic resampling tools
     - scipy         # Common math/stats/science functions
     - scikit-learn  # Macine learning library
     - scikit-image  # Image processing routines
     - xarray        # N-d labeled array library
+    - zarr
+    - gcsfs
     - gsw
     - xarrayutils
     - xlayers
