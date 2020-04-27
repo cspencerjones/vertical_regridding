@@ -27,3 +27,4 @@ dependencies:
     - gsw
     - xarrayutils
     - xlayers
+    - cartopy
