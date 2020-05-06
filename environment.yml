@@ -25,6 +25,7 @@ dependencies:
     - zarr
     - gcsfs
     - gsw
+    - xhistogram
     - xarrayutils
     - xlayers
     - cartopy
