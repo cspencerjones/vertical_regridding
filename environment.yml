@@ -29,4 +29,5 @@ dependencies:
     - xarrayutils
     - xlayers
     - cartopy
+    - esmpy<=7.1.0
     - xesmf
