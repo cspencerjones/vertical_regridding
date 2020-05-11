@@ -9,6 +9,7 @@ dependencies:
     - cartopy       # Geographic plotting toolkit
     - cython        # Transpile Python->C
     - dask          # Parallel processing library
+    - dask_gateway  # Parallel procesing gateway
     - future        # Python 2/3 compatibility
     - h5py          # Wrapper for HDF5
     - ipython       # IPython interpreter and tools
