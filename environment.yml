@@ -28,7 +28,7 @@ dependencies:
     - gsw
     - xhistogram
     - xarrayutils
-    - xlayers
+    - xlayers=0.2.2
     - cartopy
     - esmpy<=7.1.0
     - xesmf
