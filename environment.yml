@@ -5,30 +5,27 @@ channels:
     - ioam
 dependencies:
     - python=3.6    # Python version 3.6
-    - bottleneck    # C-optimized array functions for NumPy
-    - cartopy       # Geographic plotting toolkit
-    - cython        # Transpile Python->C
-    - dask          # Parallel processing library
-    - dask-gateway  # Parallel procesing gateway
-    - future        # Python 2/3 compatibility
-    - h5py          # Wrapper for HDF5
-    - ipython       # IPython interpreter and tools
-    - jupyter       # Jupyter federation architecture
-    - matplotlib    # 2D plotting library
-    - netcdf4       # Wrapper for netcdf4
-    - notebook      # Notebook interface
-    - numpy         # N-d array and numerics
-    - pandas        # Labeled array library
-    - scipy         # Common math/stats/science functions
-    - scikit-learn  # Macine learning library
-    - scikit-image  # Image processing routines
-    - xarray        # N-d labeled array library
-    - zarr
-    - gcsfs
-    - gsw
-    - xhistogram
-    - xarrayutils
+    - bottleneck=1.3.2    # C-optimized array functions for NumPy
+    - cartopy=0.17.0       # Geographic plotting toolkit
+    - cython=0.29.17        # Transpile Python->C
+    - dask=2.16.0          # Parallel processing library
+    - dask-gateway=0.7.1  # Parallel procesing gateway
+    - future=0.18.2        # Python 2/3 compatibility
+    - h5py=2.10.0          # Wrapper for HDF5
+    - ipython=7.14.0       # IPython interpreter and tools
+    - jupyter=1.0.0       # Jupyter federation architecture
+    - matplotlib=3.2.1    # 2D plotting library
+    - netcdf4=1.5.1.2       # Wrapper for netcdf4
+    - notebook=6.0.3      # Notebook interface
+    - numpy=1.18.4         # N-d array and numerics
+    - pandas=1.0.3        # Labeled array library
+    - scipy=1.4.1         # Common math/stats/science functions
+    - xarray=0.15.1        # N-d labeled array library
+    - zarr=2.4.0
+    - gcsfs=0.6.2
+    - gsw=3.3.1
+    - xhistogram=0.1.1
+    - xarrayutils=0.1.3
     - xlayers=0.2.2
-    - cartopy
-    - esmpy<=7.1.0
-    - xesmf
+    - esmpy=7.1.0
+    - xesmf=0.3.0
