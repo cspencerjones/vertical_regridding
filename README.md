@@ -1,4 +1,4 @@
-# vertical_regridding
+# Vertical Regridding
 
 [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/cspencerjones/vertical_regridding/master)
 
